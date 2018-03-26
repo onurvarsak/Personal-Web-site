@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	text-decoration:none;
+}
+body{
+	background:#3d161b;
+	font-family: Verdana, monospace, sans-serif;
+	font-size: 15px;
+	padding:20px;
+	
+}
+
+.main{
+	width:800px;
+	height:auto;
+	margin:auto;
+}
+
+.menu{
+	width:800px;
+	height:50px;
+}
+
+.menu-logo{
+	width:100px;
+	float:left;
+}
+
+.menu-links{
+	width:700px	;
+	height:50px;
+	
+}
+.menu-links ul li {float:left;}
+.menu-links ul li a{
+	display:block; 
+	color:#333; 
+	padding:17px;
+	background:#FFF;
+	font-size:15px ;
+}
+.menu ul li a:hover{background-color:#3d161b; color:#FFF;}
+
+
+.central{
+	background:#FFF;
+	margin-top:18px;
+	width:800px;
+	height:auto;
+	font-size:36px;
+	}
+h1{
+	font-size:20px;}
+table{
+	font-family: Verdana, monospace, sans-serif;
+	font-size:15px;
+	padding:20px;
+	border:1px;
+	width:650px	;
+	height:auto;
+	margin:auto;
+	
+}
+
+table#department{
+	width:800px;
+	font-size:10px;
+}
+.information{
+	margin-top:5px;
+	background-color:#FFF;
+	padding:10px;
+}
+.empty{
+	padding:3px;
+}
